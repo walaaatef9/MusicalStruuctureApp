@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Estrutura Musical</string>
+    <string name="artists">Artistas</string>
+    <string name="songs">Músicas</string>
+    <string name="albums">Álbuns</string>
+    <string name="album">Album</string>
+    <string name="artist">Artista</string>
+    <string name="track_number">Faixa</string>
+    <string name="play_button">Botão Play</string>
+    <string name="album_artists">Artistas do Album</string>
+    <string name="album_songs">Músicas do Album</string>
+    <string name="album_cover">Capa do Album</string>
+    <string name="artist_photo">Foto do Artista</string>
+</resources>

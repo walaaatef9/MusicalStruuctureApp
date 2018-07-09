@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="track_number">Track Number</string>
+    <string name="play_button">Play Button</string>
+    <string name="album_artists">Album Artists</string>
+    <string name="album_songs">Album Songs</string>
+    <string name="album_cover">Album Cover</string>
+    <string name="artist_photo">Artist Photo</string>
+</resources>

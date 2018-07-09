@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the album category -->
+    <color name="category_album">#E91E63</color>
+
+    <!-- Background color for the artist members category -->
+    <color name="category_artist">#FFC107</color>
+
+    <!-- Background color for the song category -->
+    <color name="category_song">#00BCD4</color>
+
+</resources>

@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box_background"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/album_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/category_album"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/album"
+                android:contentDescription="@string/albums" />
+
+            <TextView
+                android:id="@+id/album_text_view"
+                style="@style/TextStyleMain"
+                android:background="@color/category_album"
+                android:text="@string/albums" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/artist_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@color/category_artist"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/artists"
+                android:contentDescription="@string/artists" />
+
+            <TextView
+                android:id="@+id/artist_text_view"
+                style="@style/TextStyleMain"
+                android:background="@color/category_artist"
+                android:text="@string/artists" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/songs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@color/category_song"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/tracks"
+                android:contentDescription="@string/songs" />
+
+            <TextView
+                android:id="@+id/song_text_view"
+                style="@style/TextStyleMain"
+                android:background="@color/category_song"
+                android:text="@string/songs" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
